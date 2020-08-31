@@ -1,0 +1,10 @@
+mumu_xueqiu:
+  automationName: Appium
+  deviceName: 127.0.0.1:7555
+  platformName: Android
+  platformVersion: 6.0.1
+  appPackage: com.xueqiu.android
+  appActivity: .view.WelcomeActivityAlias
+  noReset: true
+  unicodeKeyBoard: true
+  resetKeyBoard: true
