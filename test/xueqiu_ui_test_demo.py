@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 class TestDemo:
 
     def setup(self):
+
         with open('phone.yml')as f:
             desired_caps = yaml.safe_load(f)['mumu_xueqiu']
             # desired_caps['app']=f'{os.path.abspath(os.pardir)}{os.sep}app{os.sep}xueqiu.apk'
